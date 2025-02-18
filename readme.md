@@ -22,4 +22,8 @@ List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
 
-List all members and their roles
+Jules - President
+Gambo - Architect
+Savannah - Designer
+Nidia - Analyst
+Jon - Scrum Master
