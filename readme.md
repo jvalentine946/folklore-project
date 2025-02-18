@@ -22,8 +22,8 @@ List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
 
-Jules - President
-Gambo - Architect
-Savannah - Designer
-Nidia - Analyst
-Jon - Scrum Master
+Jules Page - President
+Gamaliel Cruz - Architect
+Savannah Stewart - Designer
+Nidia Rascon - Analyst
+Jon Elles- Scrum Master
