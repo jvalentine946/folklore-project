@@ -2,11 +2,11 @@
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+Our project is about folklore from around the world. We decided on this topic because we wanted to cover a variety of stories from a variety of places, partly to be inclusive and partly to distinguish our project since many other groups in the course chose folklore as their topic. Choosing to do a regional project rather than a single piece of folklore also gives us as a group more material to pull from, making it easier to make 10+ distinct webpages.
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
+[Blog Page](https://jvalentine946.github.io/folklore-project/)
 
 ### Key Takeaways
 
