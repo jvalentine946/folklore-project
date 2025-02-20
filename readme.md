@@ -22,4 +22,8 @@ List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
 
-List all members and their roles
+Jules Page - President
+Gamaliel Cruz - Architect
+Savannah Stewart - Designer
+Nidia Rascon - Analyst
+Jon Elles- Scrum Master
