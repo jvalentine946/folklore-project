@@ -24,12 +24,19 @@ Folklore Pages - These pages will explain the history of each individual tale wi
 
 ### Design Choices
 
-List any websites that you might reference to influence you styling choices
+Layouts for 
+Home & About Us: https://i.pinimg.com/736x/8a/d9/dc/8ad9dc6de063504965f40f8cb6547ec6.jpg
+https://i.pinimg.com/736x/59/54/c4/5954c400ae35ca399a312aa79136a729.jpg
+
+Infographic Pages: https://i.pinimg.com/736x/22/fc/f5/22fcf533af54d1a074a3a73470645362.jpg
+https://img.freepik.com/vetores-premium/animal-infographic-series-kakapo_75776-292.jpg?w=1380
+
+3 Hex codes: #606C38 & #283618 & #FEFAE0
 
 ### Members & Responsibilities
 
-Jules Page - President
-Gamaliel Cruz - Architect
-Savannah Stewart - Designer
-Nidia Rascon - Analyst
-Jon Elles- Scrum Master
+Jules Page (President),
+Gamaliel Cruz (Architect),
+Savannah Stewart (Designer),
+Nidia Rascon (Analyst),
+Jon Elles (Scrum Master).
