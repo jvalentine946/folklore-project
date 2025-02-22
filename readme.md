@@ -32,6 +32,7 @@ Infographic Pages: https://i.pinimg.com/736x/22/fc/f5/22fcf533af54d1a074a3a73470
 https://img.freepik.com/vetores-premium/animal-infographic-series-kakapo_75776-292.jpg?w=1380
 
 3 Hex codes: #606C38 #283618 #FEFAE0
+Our XD Page: https://xd.adobe.com/view/10677dc2-2169-49be-b74d-9849fb0925b7-4534/?fullscreen
 
 ### Members & Responsibilities
 
