@@ -14,7 +14,13 @@ Understanding of why we are doing this project
 
 ### Core Webpages
 
-List core webpages and briefly describe the page of them
+Here is our core pages (bound to update) :
+
+Home - This page will have a world map with different pin points. Each pin point will feature different folklore/tales and clicking on it will expand the information
+
+About us - This will explain the team, our goals, and values
+
+Folklore Pages - These pages will explain the history of each individual tale with each having their own page dedicated to them. Information will include images, history, and present day effects.
 
 ### Design Choices
 
