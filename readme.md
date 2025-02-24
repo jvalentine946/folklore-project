@@ -10,7 +10,13 @@ Our project is about folklore from around the world. We decided on this topic be
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+Our main goal was to explore folklore from various cultures to create an inclusive and diverse collection of stories. Instead of focusing on just one tale, we decided on a regional approach, which allows us to cover a wider range of folklore and make our project stand out from others in the course.
+
+One of the biggest advantages of this approach is that it gives us flexibility, each group member can contribute their own research on different cultures, ensuring we have enough material to build at least 10 unique webpages. This also helps us create a more engaging user experience, as visitors can explore stories from different regions through an interactive world map.
+
+From a documentation perspective, this project also emphasizes teamwork and organization. Each member has a clear role, and we’ve used structured planning to ensure the site is well-designed, informative, and visually appealing. The design choices, including color schemes and layout inspirations, reflect our goal of making the information both accessible and engaging.
+
+Ultimately, this project is about more than just folklore, it’s about understanding cultural heritage and storytelling traditions in a way that resonates with a modern audience.
 
 ### Core Webpages
 
@@ -24,7 +30,7 @@ Folklore Pages - These pages will explain the history of each individual tale wi
 
 ### Design Choices
 
-Layouts for 
+Layouts for
 Home & About Us: https://i.pinimg.com/736x/8a/d9/dc/8ad9dc6de063504965f40f8cb6547ec6.jpg
 https://i.pinimg.com/736x/59/54/c4/5954c400ae35ca399a312aa79136a729.jpg
 
