@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+html, body {
+       font-family: Verdana;
+       font-size: medium;
+    background-image: url("./Img/Group\ 12.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat, no-repeat;
+   background-position: top; }
+#title{
+    margin: 100px;}  
+h1 {
+    color: #FEFAE0;
+    font-size:xx-large; }
+
+body > ul{ margin-left: 20px;}
+   nav{
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       padding: 10px;  }
+   ul {
+       display: flex;
+       width: 100%;
+       list-style: none;}
+   nav ul li a{
+       font-size: 15px;
+       color: #FEFAE0;
+       text-decoration: none;
+       padding-left: 45px;}
