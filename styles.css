@@ -10,25 +10,39 @@ html, body {
     background-image: url("./Img/Group\ 12.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat, no-repeat;
-   background-position: top; }
+   background-position: top; 
+}
+
 #title{
-    margin: 100px;}  
+    margin: 100px;
+    
+}  
 h1 {
     color: #FEFAE0;
-    font-size:xx-large; }
+    font-size:xx-large;
+    padding-left: 150px;
+ }
 
-body > ul{ margin-left: 20px;}
+body > ul{ 
+    margin-left: 20px;
+}
+
    nav{
        display: flex;
        align-items: center;
        justify-content: space-evenly;
-       padding: 10px;  }
+       padding: 10px;  
+    }
+
    ul {
        display: flex;
        width: 100%;
-       list-style: none;}
+       list-style: none;
+    }
+
    nav ul li a{
        font-size: 15px;
        color: #FEFAE0;
        text-decoration: none;
-       padding-left: 45px;}
+       padding-left: 45px;
+    }
