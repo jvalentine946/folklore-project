@@ -15,7 +15,8 @@ html, body {
     margin: 100px;}  
 h1 {
     color: #FEFAE0;
-    font-size:xx-large; }
+    font-size:xx-large;
+ }
 
 body > ul{ margin-left: 20px;}
    nav{
