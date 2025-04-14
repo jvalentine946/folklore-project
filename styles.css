@@ -74,3 +74,101 @@ aside.homeRight1{
     min-height: 200px;
 }
 aside.homeRight2
+
+/* Africa styling v */
+
+.infographic {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #FEFAE0;
+    color: #283618;
+  }
+  
+  .creature-header {
+    text-align: center;
+    position: relative;
+  }
+  
+  .creature-header h2 {
+    font-size: 48px;
+    color: #283618;
+    margin-bottom: 10px;
+  }
+  
+  .origin-label {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: rotate(-90deg) translateY(-50%);
+    background-color: #606C38;
+    color: #FEFAE0;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .creature-showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .description {
+    width: 20%;
+    font-size: 16px;
+  }
+  
+  .creature-image {
+    background-color: #A8DADC;
+    width: 60%;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .creature-details {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .sketch-box {
+    flex: 1 1 40%;
+    background-color: #606C38;
+    color: #FEFAE0;
+    padding: 40px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .info-columns {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .maps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .map {
+    flex: 1 1 48%;
+    background-color: #A8DADC;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
