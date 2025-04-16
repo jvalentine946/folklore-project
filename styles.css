@@ -348,3 +348,87 @@ aside.homeRight2
   margin-top: -150px;
   background-color: #283618;
 }
+
+/* Asia Styling */
+
+.asia-name {
+  text-align: right;
+  font-size: 48px;
+  color:#283618;
+  margin-top: 40px;
+  margin-right: 120px;
+}
+
+.asia-content {
+  width: 1300px;
+  height: 1600px;
+  background-color:#FEFAE0;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.asia-description {
+  height: 250px;
+  width: 250px;
+  font-size: 25px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+.asia-legend {
+  height: 250px;
+  width: 250px;
+  font-size: 25px;
+  margin-left: 1000px;
+  margin-top: -250px;
+}
+
+.asia-info {
+  height: 250px;
+  width: 350px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.circle {
+  width: 800px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: powderblue; /* Optional: Add a background color */
+  margin-left: 250px;
+  margin-top: -120px;
+}
+
+.asia-infoExtra {
+  height: 250px;
+  width: 300px;
+  font-size: 25px;
+  margin-left: 700px;
+  margin-top: -200px;
+}
+
+.asia-map {
+  background-color: powderblue;
+  width: 300px;
+  height: 300px;
+  margin-left: 1000px;
+  margin-top: -250px;
+}
+
+.asia-sketch {
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: -150px;
+  background-color: #283618;
+}
+
+.asia-second-name {
+  text-align: left;
+  font-size: 48px;
+  color:#FEFAE0;
+  margin-top: 40px;
+  margin-left: 100px;
+}
