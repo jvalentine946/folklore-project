@@ -84,7 +84,10 @@ html.homebg.main.{}
     align-items: flex-end;
     margin-left: 50%;
     padding: 2px;
-    padding-right: 20px;}
+    padding-right: 20px;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);}
 aside.homeRight2{
   margin-top: 20px;
     margin-bottom: 20px;
@@ -96,9 +99,11 @@ aside.homeRight2{
     margin-left: 60%;
     padding: 20px;
     color: #283618;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+      box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);}
 
-}
-
+      
 /* Africa styling v */
 .infographic {
     padding: 30px;
