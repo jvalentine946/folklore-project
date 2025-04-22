@@ -72,12 +72,8 @@ html.homebg.main.{}
 .mapbg {
     display: flex;
     align-items: center;
-    background-color: #FEFAE0; }
-#svgmap{
-    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    overlay: 100%;}
+    background-color: #FEFAE0;
+    min-width: 100%; }
 .homeRight1{
     margin-top: 20px;
     margin-bottom: 20px;
