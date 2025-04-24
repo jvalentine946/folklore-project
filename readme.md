@@ -45,8 +45,12 @@ Our XD Page: https://xd.adobe.com/view/10677dc2-2169-49be-b74d-9849fb0925b7-4534
 
 ### Members & Responsibilities
 
-Jules Page (President),
-Gamaliel Cruz (Architect),
-Savanna Stewart (Designer),
-Nidia Rascon (Analyst),
-Jon Elles (Scrum Master).
+Jules Page (President), Webpages: Asia (Romania, China, Japan, Iran), Ocean (Kraken)
+
+Gamaliel Cruz (Architect), Webpages: North America (Bigfoot) South America (El Duende)
+
+Savanna Stewart (Designer), Webpages: Home, About, Nav bar, Images
+
+Nidia Rascon (Analyst), Webpages: Africa (Mokele-mbembe), Antarctica (Ningen)
+
+Jon Elles (Scrum Master), Webpages: Europe (Hellhounds), Australia (Yara-ma-yha-who)
