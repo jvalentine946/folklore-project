@@ -10,23 +10,25 @@ Our project is about folklore from around the world. We decided on this topic be
 
 ### Key Takeaways
 
-Our main goal was to explore folklore from various cultures to create an inclusive and diverse collection of stories. Instead of focusing on just one tale, we decided on a regional approach, which allows us to cover a wider range of folklore and make our project stand out from others in the course.
+Our main goal was to explore folklore from various cultures to create an inclusive and diverse collection of stories, while also broadening our coding knowledge and website creation skills. Instead of focusing on just one tale, we decided on a regional approach, which allows us to cover a wider range of folklore and make our project stand out from others in the course.
 
-One of the biggest advantages of this approach is that it gives us flexibility, each group member can contribute their own research on different cultures, ensuring we have enough material to build at least 10 unique webpages. This also helps us create a more engaging user experience, as visitors can explore stories from different regions through an interactive world map.
+One of the biggest advantages of this approach is that it gives us flexibility. Each group member can contribute their own research on different cultures, ensuring we have enough material to build at least 10 unique webpages. This also helps us create a more engaging user experience, as visitors can explore stories from different regions through an interactive world map.
 
 From a documentation perspective, this project also emphasizes teamwork and organization. Each member has a clear role, and we’ve used structured planning to ensure the site is well-designed, informative, and visually appealing. The design choices, including color schemes and layout inspirations, reflect our goal of making the information both accessible and engaging.
 
 Ultimately, this project is about more than just folklore, it’s about understanding cultural heritage and storytelling traditions in a way that resonates with a modern audience.
 
+Techniques learned in this course that contributed to our project were HTML, CSS, JavaScript, and database creation. We used HTML and CSS for the basic styling of the pages and navigation, JavaScript to create a clickable map, and the database to introduce an interactive function to our site. 
+
 ### Core Webpages
 
-Here is our core pages (bound to update) :
+Core Pages:
 
-Home - This page will have a world map with different pin points. Each pin point will feature different folklore/tales and clicking on it will expand the information
+Home - This page has a world map with different clickable areas. Clicking on these areas redirects the website visitor to the corresponding regions webpage.
 
-About us - This will explain the team, our goals, and values
+About Us - This page showcases the members of the team, our goals in creating this project, and our favorite cryptids.
 
-Folklore Pages - These pages will explain the history of each individual tale with each having their own page dedicated to them. Information will include images, history, and present day effects.
+Folklore Pages - These pages (split up by region) explain the history of each individual folklore creature. Information includes images, history, and present day effects.
 
 ### Design Choices
 
