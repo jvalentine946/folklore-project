@@ -273,6 +273,8 @@ font-weight: 200;}
   text-align: center;
   font-weight: bold;
   border-radius: 8px;
+  
+  box-shadow: 12px 29px 70px 0px #fefae0;
 }
 
 .info-columns {
@@ -281,6 +283,7 @@ font-weight: 200;}
   flex-direction: column;
   gap: 20px;
   font-size: 20px;
+  box-shadow: 12px 29px 70px 0px #fefae0;
 }
 
 .maps {
@@ -301,8 +304,7 @@ font-weight: 200;}
 }
 /* Europe styling V*/
 .europe-clean {
-  background: #fefae0;
-  color: #283618;
+  color: #fefae0;
   padding: 40px 20px;
   font-family: "Georgia", serif;
 }
@@ -311,7 +313,7 @@ font-weight: 200;}
   text-align: center;
   font-size: 48px;
   margin-bottom: 40px;
-  color: #283618;
+  color: #fefae0;
 }
 .hellhound-center {
   text-align: center;
@@ -337,17 +339,16 @@ font-weight: 200;}
   line-height: 1.6;
 }
 .map {
-  background: #fefae0;
   border-radius: 12px;
   padding: 20px;
   width: 40%;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 4px 10px #283618;
+  box-shadow: 0 4px 10px #fefae0;
 }
 .map-folklore {
-  background: #fefae0;
+  background: #606c38;
   border-radius: 12px;
   padding: 20px;
   width: 40%;
@@ -365,10 +366,12 @@ font-weight: 200;}
 .hh-block {
   flex: 1;
   min-width: 200px;
-  background: #fefae0;
+  background: #606c38;
   padding: 20px;
   border-radius: 10px;
   box-shadow: inset 0 0 10px #fefae0;
+  
+  box-shadow: 0 4px 10px  #606c38;
   font-style: italic;
   color:  #283618;
   font-size: 20px;
@@ -426,6 +429,7 @@ font-weight: 200;}
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+  color: #fefae0;
 }
 
 .map-banner {
@@ -452,7 +456,7 @@ font-weight: 200;}
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 4px 10px  #283618;
+  box-shadow: 0 4px 10px  #606c38;
 }
 
 .ice-facts {
@@ -468,7 +472,7 @@ font-weight: 200;}
   background: #fefae0;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: inset 0 0 10px #606c38;
+  box-shadow: 0 4px 10px  #606c38;
   font-style: italic;
   color:  #283618;
   font-size: 20px;
