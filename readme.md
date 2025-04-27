@@ -16,9 +16,9 @@ One of the biggest advantages of this approach is that it gives us flexibility. 
 
 From a documentation perspective, this project also emphasizes teamwork and organization. Each member has a clear role, and we’ve used structured planning to ensure the site is well-designed, informative, and visually appealing. The design choices, including color schemes and layout inspirations, reflect our goal of making the information both accessible and engaging.
 
-Ultimately, this project is about more than just folklore, it’s about understanding cultural heritage and storytelling traditions in a way that resonates with a modern audience.
+Ultimately, this project is about more than just folklore, it's about understanding cultural heritage and storytelling traditions in a way that resonates with a modern audience.
 
-Techniques learned in this course that contributed to our project were HTML, CSS, JavaScript, and database creation. We used HTML and CSS for the basic styling of the pages and navigation, JavaScript to create a clickable map, and the database to introduce an interactive function to our site. 
+Techniques learned in this course that contributed to our project were HTML, CSS, JavaScript, and database creation. We used HTML and CSS for the basic styling of the pages and navigation, JavaScript to create a clickable map, and the database to introduce an interactive function to our site. Moving forward, we plan to incorporate a comments section connected to the database, allowing users to share their thoughts and interact with the folklore content directly.
 
 ### Core Webpages
 
