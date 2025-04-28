@@ -388,6 +388,18 @@ div.Horz-line3 {
   height: 300px;
   width: 300px;
 }
+.map img {
+  height: 300px;
+  width: 700px;
+}
+.sight img {
+  height: 350px;
+  width: 500px;
+}
+.map-folklore {
+  height: 350px;
+  width: 300px;
+}
 .hellhound-image {
   height: 300px;
   width: 300px;
