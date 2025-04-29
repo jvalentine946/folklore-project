@@ -801,3 +801,10 @@ div.Horz-line3 {
   margin-top: 40px;
   margin-left: 100px;
 }
+
+/* NA Styling */
+
+div .NAmap img {
+max-width: 500px;
+  
+}
