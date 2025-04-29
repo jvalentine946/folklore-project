@@ -2,7 +2,7 @@
 
 ### Project Summary
 
-Our project is about folklore from around the world. We decided on this topic because we wanted to cover a variety of stories from a variety of places, partly to be inclusive and partly to distinguish our project since many other groups in the course chose folklore as their topic. Choosing to do a regional project rather than a single piece of folklore also gives us as a group more material to pull from, making it easier to make 10+ distinct webpages.
+Our project is about folklore from around the world. We decided on this topic because we wanted to cover a variety of stories from a variety of places, partly to be inclusive of a variety of regions and mythos and partly to distinguish our project since many other groups in the course chose folklore as their topic. Choosing to do a regional project rather than a single piece of folklore also gives us as a group more material to pull from, making it easier to make 10+ distinct webpages. The website is split into pages dedicated to world regions, with page containing information on folklore creatures including a description of the creature, where it is found, and the legends associated with it. These pages also contain vector images of the creatures and maps of where these creatures are commonly found.
 
 ### Live Link
 
