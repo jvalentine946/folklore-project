@@ -639,6 +639,17 @@ div .Amap img {
   margin-bottom: 50px;
 }
 
+
+.map-a1 img {
+  height: 350px;
+  width: 500px;
+}
+
+.map-a img {
+  height: 350px;
+  width: 500px;
+}
+
 .map-card {
   background: #fefae0;
   border-radius: 12px;
