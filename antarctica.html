@@ -12,82 +12,84 @@
     </header>
     <nav>
       <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html" id="current">About Us</a>
-        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" id="current">About Us</a></li>
       </ul>
       <ul class="places">
-        <li>
-          <a href="europe.html">Europe</a>
-        </li>
-        <li>
-          <a href="africa.html">Africa</a>
-        </li>
-        <li>
-          <a href="asia.html">Asia</a>
-        </li>
-        <li>
-          <a href="australia.html">Australia</a>
-        </li>
-        <li>
-          <a href="northamerica.html">North America</a>
-        </li>
-        <li>
-          <a href="southamerica.html">South America</a>
-        </li>
+        <li><a href="europe.html">Europe</a></li>
+        <li><a href="africa.html">Africa</a></li>
+        <li><a href="asia.html">Asia</a></li>
+        <li><a href="australia.html">Australia</a></li>
+        <li><a href="northamerica.html">North America</a></li>
+        <li><a href="southamerica.html">South America</a></li>
         <li>
           <a href="antarctica.html"><b>Antarctica</b></a>
         </li>
-        <li>
-          <a href="ocean.html">Ocean</a>
-        </li>
+        <li><a href="ocean.html">Ocean</a></li>
       </ul>
     </nav>
+
     <div class="Horz-line3"></div>
+
     <div class="main-content antarctica-clean">
-      <h2 class="creature-title">Creature Name</h2>
+      <h2 class="creature-title">The Ningen</h2>
 
       <div class="creature-center">
         <div class="creature-image">[Creature Illustration]</div>
         <p class="creature-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          exercitationem repellat asperiores saepe optio officia ipsum atque?
-          Perferendis molestias ratione excepturi nobis vitae minus nemo eaque
-          perspiciatis, quibusdam adipisci illum.
+          Ningens are humanoid creatures that live in the icy waters near
+          Antarctica. Ningens are humanlike and are completely white in color.
+          Some people think they are an undiscovered species of apes who are
+          able to breathe underwater...
         </p>
       </div>
 
       <div class="origin-and-map">
         <div class="map-banner">Country of Origin</div>
         <div class="map-section">
-          <div class="map-card">Map of Antarctica</div>
-          <div class="map-card">Map of Folklore</div>
+          <div class="map-folklore">
+            <div class="map-a1"><img src="Img/mmm.png" alt="antartica" /></div>
+          </div>
+          <div class="map-folklore">
+            <div class="map-a"><img src="Img/R.png" alt="antarticamap" /></div>
+          </div>
         </div>
       </div>
 
       <section class="ice-facts">
+        <div class="ice-block">The tale of the Ningen first surfaced...</div>
         <div class="ice-block">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
-          saepe at quo minus provident, distinctio doloribus quos qui assumenda
-          dolores error quibusdam. Quod sit velit itaque sint tempora recusandae
-          corrupti?
+          The Ningen shares similarities with other cryptids...
         </div>
-        <div class="ice-block">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-          atque? Recusandae soluta cumque debitis aliquid numquam! Accusantium,
-          unde fuga voluptates nostrum alias odio magni voluptate architecto
-          rerum corporis voluptas quaerat.
-        </div>
-        <div class="ice-block">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At excepturi
-          distinctio dolore nam voluptatum dolorem nostrum sed nihil hic quidem
-          blanditiis, doloremque eos cupiditate, perspiciatis magni laborum quae
-          error fuga?
-        </div>
+        <div class="ice-block">Lorem ipsum dolor sit amet...</div>
       </section>
+
+      <!-- New Comment Section -->
+      <seciton id="comments-section">
+        <h3 class="creature-title">Let us know what you think!</h3>
+
+        <section id="comments-section">
+          <h3 class="creature-title">Comment Section</h3>
+
+          <form id="comment-form">
+            <input
+              type="text"
+              id="comment-input"
+              placeholder="Leave your comment..."
+              required
+            />
+            <button type="submit">Post</button>
+          </form>
+
+          <div id="dreams"></div>
+        </section>
+
+        <div id="dreams"></div>
+      </seciton>
     </div>
+
+    <!-- Firebase/CRUD Scripts -->
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/crud.js"></script>
   </body>
 </html>
