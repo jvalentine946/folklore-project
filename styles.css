@@ -680,6 +680,61 @@ div .Amap img {
   font-size: 20px;
 }
 
+/* comment section */
+
+#comments-section {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #283618;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #606c38;
+}
+
+#comments-section h3 {
+  text-align: center;
+  color: #fefae0;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.dream {
+  background: #fefae0;
+  color: #283618;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 4px 10px #606c38;
+}
+
+.dream h4 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.dream .delete {
+  color: red;
+  float: right;
+  cursor: pointer;
+}
+
+.dream button {
+  background-color: #606c38;
+  color: #fefae0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+}
+
+.dream button:hover {
+  background-color: #283618;
+}
+
+
 /* Ocean Styling */
 
 .ocean-name {
