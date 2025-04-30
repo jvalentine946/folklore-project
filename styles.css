@@ -827,12 +827,22 @@ div .Amap img {
   height: 300px;
   margin-left: 60%;
   margin-top: -200px;
+  border-radius: 50%;
 }
 
 .ocean-sketch {
   max-width: 45%;
   height: 300px;
   margin-top: -250px;
+  border-radius: 50%;
+}
+
+.ocean-map img {
+  border-radius: 20%;
+}
+
+.ocean-sketch img {
+  border-radius: 20%;
 }
 
 /* Asia Styling */
@@ -898,7 +908,6 @@ div .Amap img {
   max-width: 500px;
   height: 300px;
   margin-top: -250px;
-  background-color: #283618;
 }
 
 .asia-second-name {
@@ -907,6 +916,14 @@ div .Amap img {
   color: #fefae0;
   margin-top: 40px;
   margin-left: 100px;
+}
+
+.asia-map img {
+  border-radius: 20%;
+}
+
+.asia-sketch img {
+  border-radius: 20%;
 }
 
 /* NA Styling */
