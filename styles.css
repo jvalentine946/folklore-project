@@ -308,12 +308,13 @@ div.Horz-line3 {
   margin: 20px;
 }
 
-.creature-image {
+.creature-image img {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 24px;
+  height: 300px;
+  border-radius: 20%;
 }
 
 .creature-details {
@@ -326,7 +327,7 @@ div.Horz-line3 {
   padding-bottom: 60px;
 }
 
-.sketch-box {
+.sketch-box img {
   flex: 1 1 40%;
   background-color: #606c38;
   color: #fefae0;
@@ -334,7 +335,7 @@ div.Horz-line3 {
   text-align: center;
   font-weight: bold;
   border-radius: 8px;
-
+  height: 300px;
   box-shadow: 12px 29px 70px 0px #fefae0;
 }
 
@@ -354,15 +355,25 @@ div.Horz-line3 {
   flex-wrap: nowrap; /* toprevent stacking */
 }
 
-.map {
+.map  {
   flex: 0 0 48%;
-  background-color: #fefae0;
+  background-color: #fefffe;
   padding: 10px;
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
   max-width: 35%;
 }
+
+/* .map .moke img {
+  max-width: 100px;
+} */
+
+div .Amap img {
+  max-width: 350px;
+}
+
+
 /* Europe styling V*/
 .europe-clean {
   color: #fefae0;
