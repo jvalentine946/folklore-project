@@ -355,7 +355,7 @@ div.Horz-line3 {
   flex-wrap: nowrap; /* toprevent stacking */
 }
 
-.map  {
+.map {
   flex: 0 0 48%;
   background-color: #fefffe;
   padding: 10px;
@@ -372,7 +372,6 @@ div.Horz-line3 {
 div .Amap img {
   max-width: 350px;
 }
-
 
 /* Europe styling V*/
 .europe-clean {
@@ -504,9 +503,9 @@ div .Amap img {
   display: flex;
 }
 .yara-image img {
-  border-radius: 50%;
+  border-radius: 20%;
   height: 300px;
-  width: 300px;
+  width: 400px;
 }
 .yara-image {
   height: 300px;
@@ -639,7 +638,6 @@ div .Amap img {
   margin-bottom: 50px;
 }
 
-
 .map-a1 img {
   height: 350px;
   width: 500px;
@@ -768,7 +766,6 @@ div .Amap img {
 #comment-form button:hover {
   background-color: #283618;
 }
-
 
 /* Ocean Styling */
 
@@ -932,6 +929,5 @@ div .Amap img {
 /* NA Styling */
 
 div .NAmap img {
-max-width: 500px;
-  
+  max-width: 500px;
 }
