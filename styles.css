@@ -953,3 +953,25 @@ div .Amap img {
 div .NAmap img {
   max-width: 500px;
 }
+
+/* SA Styling */
+
+.duendeimg {
+  height: 500px;
+  width: 700px;
+  background-color: #fefae0;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.duendeimg img {
+  max-width: 600px;
+  max-height: 400px;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.southamerica-duendeimg {
+  margin-top: 100px;
+}
