@@ -823,6 +823,18 @@ div .Amap img {
   margin-top: -70px;
 }
 
+.ocean-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 500px;
+  width: 700px;
+  border-radius: 20%;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+
 .ocean-map {
   height: 300px;
   margin-left: 60%;
@@ -882,6 +894,16 @@ div .Amap img {
   margin-top: -100px;
 }
 
+.asia-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 500px;
+  width: 700px;
+  border-radius: 20%;
+  margin-left: 400px;
+}
 .circle {
   width: 800px;
   height: 600px;
