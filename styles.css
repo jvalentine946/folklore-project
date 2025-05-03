@@ -144,7 +144,7 @@ aside.homeRight2 {
 }
 aside.homeLeft {
   background-color: #fefae0;
-  max-width: 25%;
+  max-width: 38%;
   padding: 20px;
   font-size: smaller;
   font-weight: bolder;
@@ -355,7 +355,7 @@ div.Horz-line3 {
   flex-wrap: nowrap; /* toprevent stacking */
 }
 
-.map  {
+.map {
   flex: 0 0 48%;
   background-color: #fefffe;
   padding: 10px;
@@ -372,7 +372,6 @@ div.Horz-line3 {
 div .Amap img {
   max-width: 350px;
 }
-
 
 /* Europe styling V*/
 .europe-clean {
@@ -505,9 +504,9 @@ div .Amap img {
   display: flex;
 }
 .yara-image img {
-  border-radius: 50%;
+  border-radius: 20%;
   height: 300px;
-  width: 300px;
+  width: 400px;
 }
 .yara-image {
   height: 300px;
@@ -640,7 +639,6 @@ div .Amap img {
   margin-bottom: 50px;
 }
 
-
 .map-a1 img {
   height: 350px;
   width: 500px;
@@ -683,12 +681,15 @@ div .Amap img {
 
 /* comment section */
 
-#comments-section {
-  margin-top: 50px;
+#comments-section-home {
+  margin-top: -10px;
   padding: 20px;
   background-color: #283618;
   border-radius: 10px;
   box-shadow: 0 4px 10px #606c38;
+  width: 60%;
+  justify-content: center;
+  justify-items: center;
 }
 
 #comments-section h3 {
@@ -767,7 +768,6 @@ div .Amap img {
   background-color: #283618;
 }
 
-
 /* Ocean Styling */
 
 .ocean-name {
@@ -822,6 +822,18 @@ div .Amap img {
   max-width: 250px;
   margin-left: 550px;
   margin-top: -70px;
+}
+
+.ocean-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 500px;
+  width: 700px;
+  border-radius: 20%;
+  margin-left: 400px;
+  margin-top: -300px;
 }
 
 .ocean-map {
@@ -883,6 +895,16 @@ div .Amap img {
   margin-top: -100px;
 }
 
+.asia-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 500px;
+  width: 700px;
+  border-radius: 20%;
+  margin-left: 400px;
+}
 .circle {
   width: 800px;
   height: 600px;
@@ -930,6 +952,114 @@ div .Amap img {
 /* NA Styling */
 
 div .NAmap img {
-max-width: 500px;
+  max-width: 500px;
+}
+
+/* SA Styling */
+
+.duendeimg {
+  height: 500px;
+  width: 700px;
+  background-color: #fefae0;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.duendeimg img {
+  max-width: 600px;
+  max-height: 400px;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.southamerica-duendeimg {
+  margin-top: 100px;
+}
+
+/* Contact Styling */
+
+.contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
   
 }
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  font-size: 16px;
+}
+.contact-left-title h2{
+  font-weight: 600;
+  color: #fefae0;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: ;
+  border-radius: ;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: ;
+  border-radius: 50px;
+}
+
+.contact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+
+}
+
+.contact-inputs:focus{
+  border: 2px solid #606c38;
+
+}
+
+.contact-inputs::placeholder{
+  color: #283618;
+
+}
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fefae0;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+ background-color: #283618;
+}
+
+.contact-left button img {
+  height: 15px;
+}
+
+
