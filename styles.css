@@ -970,11 +970,19 @@ div .NAmap img {
   max-width: 600px;
   max-height: 400px;
   margin-left: 50px;
-  margin-top: 75px;
+  margin-bottom: 100px;
 }
 
 .southamerica-duendeimg {
-  margin-top: 100px;
+  
+  margin-left: 850px;
+}
+
+.southamerica-infoExtra {
+  margin-left: 1300px;
+  min-width: 200px;
+  
+  
 }
 
 /* Contact Styling */
