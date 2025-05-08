@@ -162,7 +162,7 @@ main.carandblurb {
 /*Footer*/
 footer {
   padding: 10px;
-  margin-top: -120px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -313,7 +313,7 @@ div.Horz-line3 {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  height: 300px;
+  max-width: 300px;
 }
 
 .creature-details {
@@ -322,20 +322,17 @@ div.Horz-line3 {
   justify-content: space-evenly;
   gap: 10px;
   flex-wrap: wrap;
-  padding-top: 60px;
+  padding-top: 2px;
   padding-bottom: 60px;
 }
 
 .sketch-box img {
-  flex: 1 1 40%;
-  background-color: #606c38;
-  color: #fefae0;
-  padding: 40px 20px;
   text-align: center;
   font-weight: bold;
-  border-radius: 8px;
   height: 300px;
-  box-shadow: 12px 29px 70px 0px #fefae0;
+  -webkit-box-shadow: 0px 0px 20px 0px #283618;
+  -moz-box-shadow: 0px 0px 20px 0px #283618;
+  box-shadow: 0px 0px 20px 0px #283618;
 }
 
 .info-columns {
@@ -356,12 +353,11 @@ div.Horz-line3 {
 
 .map {
   flex: 0 0 48%;
-  background-color: #fefffe;
-  padding: 10px;
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
   max-width: 35%;
+  margin-top: -50px;
 }
 
 .green-text {
@@ -394,7 +390,7 @@ div .Amap img {
 .hellhound-center {
   text-align: center;
   display: flex;
-  margin-left: 150px;
+  margin-left: 20px;
 }
 .hellhound-image img {
   height: 300px;
@@ -406,6 +402,8 @@ div .Amap img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  max-width: auto;
+  flex-wrap: nowrap;
 }
 
 .map-section img {
@@ -508,13 +506,13 @@ div .Amap img {
   margin: 0 auto;
   line-height: 1.6;
 }
-.map2 {
-  border-radius: 12px;
+.map {
   padding: 20px;
   width: 40%;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
+  color: #283618;
 }
 .map-folklore {
   border-radius: 12px;
@@ -604,6 +602,10 @@ div .Amap img {
 }
 
 .map-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
   text-align: center;
   font-weight: bolder;
   font-size: larger;
@@ -752,20 +754,26 @@ div .Amap img {
   margin-top: 40px;
 }
 
+.ocean img{
+  max-width: 300px;
+  height: auto;
+}
+
 .ocean-content {
   min-width: auto;
   margin-right: 20px;
   margin-top: 20px;
 }
-.ocean-content p {
-  font-size: 20px;
+.ocean p {
+  font-size: medium;
 }
 
 .ocean-comment {
   text-align: center;
-  font-size: 36px;
+  font-size: 20px;
   margin-bottom: 40px;
   color:#283618;
+  
 }
 
 .ocean-description {
@@ -783,60 +791,32 @@ div .Amap img {
 }
 
 .ocean-info {
-  height: 250px;
-  max-width: 300px;
+  height: auto;
+  max-width: 250px;
   margin-left: 20px;
   margin-top: -150px;
-}
-
-.circle {
-  width: 300px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #606c38; /* Optional: Add a background color */
-  margin-left: 150px;
-  margin-top: -120px;
+  margin-bottom: 20px;
 }
 
 .ocean-infoExtra {
   height: 250px;
   max-width: 250px;
   margin-left: 550px;
-  margin-top: -70px;
+  margin-top: -60px;
 }
 
-.ocean-img img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  height: 500px;
-  width: 700px;
-  border-radius: 20%;
-  margin-left: 400px;
-  margin-top: -300px;
-}
 
-.ocean-map {
-  height: 300px;
-  margin-left: 60%;
-  margin-top: -200px;
-  border-radius: 50%;
-}
-
-.ocean-sketch {
-  max-width: 45%;
-  height: 300px;
-  margin-top: -250px;
-  border-radius: 50%;
-}
 
 .ocean-map img {
-  border-radius: 20%;
+  max-width: 400px;
+  margin-left: 60%;
+  margin-top: -120px;
 }
 
-.ocean-sketch img {
-  border-radius: 20%;
+.ocean-sketch img{
+  max-width: 45%;
+  height: 300px;
+  margin-top: -300px;
 }
 
 /* Asia Styling */
@@ -845,89 +825,90 @@ div .Amap img {
   justify-self: center;
   font-size: 48px;
   color: #283618;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
-.asia-name p {
-  font-size: 20px;
-}
 .asia-content {
-  max-width: auto;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+.asia-content img{
+  margin: 10px;
 }
 
 .asia-description {
-  max-width: 300px;
-  margin-left: 20px;
+  max-width: 250px;
+  margin: 20px;
 }
 
 .asia-legend {
   height: 250px;
-  width: 250px;
+  max-width: 250px;
   align-content: end;
-  margin-left: 77%;
+  margin-left: 79%;
   margin-top: -230px;
 }
 
 .asia-info {
   max-width: 250px;
   margin-left: 20px;
-  margin-top: -100px;
+  margin-top: -200px;
+  margin-bottom: 80px;
 }
 
 .asia-img img {
   display: flex;
-  align-items: center;
+  align-self: center;
   justify-content: center;
-  font-weight: bold;
-  height: 500px;
-  width: 700px;
-  border-radius: 20%;
-  margin-left: 400px;
+
+  min-width: 600px;
+  height: auto;
+  margin-left: 300px;
+  margin-top: -190px;
 }
-.circle {
-  width: 800px;
-  height: 600px;
-  border-radius: 50%;
-  background-color: olivedrab; /* Optional: Add a background color */
-  margin-left: 160px;
-  margin-top: -110px;
-}
+
 
 .asia-infoExtra {
   max-width: 250px;
-  margin-left: 45%;
+  margin-left: 44%;
   margin-top: 0px;
 }
 
-.asia-map {
-  min-width: 250px;
-  height: 300px;
-  margin-left: 67%;
-  margin-top: -200px;
-}
+.asia-map img{
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  
+  width: auto;
+  max-height: 250px;
+  margin-right: 10px;
+  margin-top: -200px;}
 
-.asia-sketch {
+.asia-sketch img{
   max-width: 500px;
   height: 300px;
-  margin-top: -250px;
+  margin-top: -240px;
 }
 
-.asia-second-name {
-  justify-content: right;
-  font-size: 48px;
-  color: #fefae0;
-  margin-top: 40px;
-  margin-left: 100px;
-}
 
-.asia-map img {
-  border-radius: 20%;
-}
+  
 
-.asia-sketch img {
-  border-radius: 20%;
+
+.linksref{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    90deg,
+    #606c38 0%,
+    #3c4423 25%,
+    #3c4423 75%,
+    #606c38 100%
+  );
+  text-decoration: none;
+  margin-top: -10px;
 }
 
 /* NA Styling */
@@ -937,6 +918,25 @@ div .NAmap img {
 }
 
 /* SA Styling */
+
+.southa img{
+}
+.southa .asia-map img{
+  margin-top: 20px;
+  margin-right: 20px;
+  
+}
+.southa .asia-sketch img{
+  margin-top: -600px;
+  margin-left: 20px;
+}
+.southa .asia-info{
+  margin-top: -700px;
+}
+
+.southa .asia-legend{
+  margin-right: 20px;
+}
 
 .duendeimg {
   height: 500px;
@@ -969,8 +969,8 @@ div .NAmap img {
 /* Contact Styling */
 
 .contact {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   margin-left: 50px;
   
 }
