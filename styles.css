@@ -675,6 +675,8 @@ div .Amap img {
   font-family: "Georgia", serif;
   font-size: 36px;
   margin-bottom: 30px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+            outline: 1px solid transparent; /* This helps to make the text-shadow more pronounced */
 }
 
 .dream {
