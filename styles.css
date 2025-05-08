@@ -787,6 +787,13 @@ div .Amap img {
   font-size: 20px;
 }
 
+.ocean-comment {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color:#283618;
+}
+
 .ocean-description {
   height: 250px;
   width: 250px;
