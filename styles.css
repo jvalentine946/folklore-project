@@ -390,7 +390,7 @@ div .Amap img {
 .hellhound-center {
   text-align: center;
   display: flex;
-  margin-right: 10px;
+  margin-left: 150px;
 }
 .hellhound-image img {
   height: 300px;
