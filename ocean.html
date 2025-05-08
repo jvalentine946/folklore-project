@@ -46,28 +46,34 @@
         </li>
       </ul>
     </nav>
-    <section>
-      <h2 class="ocean-name">Kraken</h2>
-      <div class="ocean-content">
-        <p class="ocean-description">
+    
+<div class="ocean">
+      <div class="Horz-line"></div>
+      <h2 class="asia-name">Kraken</h2>
+
+      <section class="asian-content">
+        <p class="asia-description">
           The Kraken is a legendary sea monster often described as a giant,
           octopus- or squid-like creature with massive tentacles capable of
-          dragging entire ships beneath the waves. Estimates in folklore range from 40 to over 100 feet, or ever bigger.
-        </p>
-        <p class="ocean-legend">
+          dragging entire ships beneath the waves. Estimates in folklore range
+          from 40 to over 100 feet, or ever bigger.
+        <p class="asia-legend">
           The first recorded sighting of the Kraken dates back to the 12th
           century, appearing in Norse sagas and later accounts by Scandinavian
-          sailors. Early accounts of another massive aquatic creature called the Hafgufa predate the
-          Kraken, and may be the basis for the Kraken legend.
+          sailors. Early accounts of another massive aquatic creature called the
+          Hafgufa predate the Kraken, and may be the basis for the Kraken
+          legend.
         </p>
-        <div class="ocean-img"><img src="Img/kraken_pic.webp" alt="image of kraken" width="400" height="300"></div>
+      </p>
+        <div class="asia-img">
+          <img src="Img/kraken_pic.webp" alt="krack"></div>
         <div class="ocean-info">
           <p>
             The Kraken is best known for its fearsome reputation in maritime
             folklore as a powerful and mysterious creature that attacks ships,
             creating whirlpools and destruction in its wake. It is typically
             said to dwell off the coasts of Norway and Greenland, lurking in the
-            deep ocean. 
+            deep ocean.
           </p>
         </div>
         <p class="ocean-infoExtra">
@@ -75,39 +81,47 @@
           to its size that it was an isalnd, only to realize as it began to drag
           their ship under that it was alive.
         </p>
-        <div class="ocean-map"><img src="Img/kraken.jpg" alt="kraken sinking a ship" width="500" height="400"></div>
-        <div class="ocean-sketch"><img src="Img/norwegian-sea.webp" alt="norwegian sea map" width="500" height="400"></div>
-      </div>
-      <br>
-      <br>
-      <br>
+        <div class="ocean-map">
+          <img
+            src="Img/kraken.jpg"
+            alt="kraken sinking a ship"
+          />
+        </div>
+        <div class="ocean-sketch">
+          <img
+            src="Img/norwegian-sea.webp"
+            alt="norwegian sea map"
+          />
+        </div>
+      </section>
+    </div>
+    <div class="Horz-line2"></div>
+    <!-- New Comment Section -->
+    <section id="comments-section">
+      <h4 class="ocean-comment">Let us know what you think!</h4>
+
+      <section id="comments-section">
+        <h4 class="ocean-comment">Comment Section</h4>
+
+        <form id="comment-form">
+          <input
+            type="text"
+            id="comment-input"
+            placeholder="Leave your comment..."
+            required
+          />
+          <button type="submit">Post</button>
+        </form>
+
+        <div id="dreams"></div>
+      </section>
+
+      <div id="dreams"></div>
     </section>
-          <!-- New Comment Section -->
-          <section id="comments-section">
-            <h4 class="ocean-comment">Let us know what you think!</h4>
-    
-            <section id="comments-section">
-              <h4 class="ocean-comment">Comment Section</h4>
-    
-              <form id="comment-form">
-                <input
-                  type="text"
-                  id="comment-input"
-                  placeholder="Leave your comment..."
-                  required
-                />
-                <button type="submit">Post</button>
-              </form>
-    
-              <div id="dreams"></div>
-            </section>
-    
-            <div id="dreams"></div>
-          </section>
-    
-        <!-- Firebase/CRUD Scripts -->
-        <script type="module" src="js/app.js"></script>
-        <script type="module" src="js/crud.js"></script>
+
+    <!-- Firebase/CRUD Scripts -->
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/crud.js"></script>
     <footer></footer>
   </body>
 </html>

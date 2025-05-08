@@ -386,7 +386,7 @@ div .Amap img {
 .hellhound-center {
   text-align: center;
   display: flex;
-  margin-left: 150px;
+  margin-left: 20px;
 }
 .hellhound-image img {
   height: 300px;
@@ -750,20 +750,26 @@ div .Amap img {
   margin-top: 40px;
 }
 
+.ocean img{
+  max-width: 300px;
+  height: auto;
+}
+
 .ocean-content {
   min-width: auto;
   margin-right: 20px;
   margin-top: 20px;
 }
-.ocean-content p {
-  font-size: 20px;
+.ocean p {
+  font-size: medium;
 }
 
 .ocean-comment {
   text-align: center;
-  font-size: 36px;
+  font-size: 20px;
   margin-bottom: 40px;
   color:#283618;
+  
 }
 
 .ocean-description {
@@ -781,60 +787,32 @@ div .Amap img {
 }
 
 .ocean-info {
-  height: 250px;
-  max-width: 300px;
+  height: auto;
+  max-width: 250px;
   margin-left: 20px;
   margin-top: -150px;
-}
-
-.circle {
-  width: 300px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #606c38; /* Optional: Add a background color */
-  margin-left: 150px;
-  margin-top: -120px;
+  margin-bottom: 20px;
 }
 
 .ocean-infoExtra {
   height: 250px;
   max-width: 250px;
   margin-left: 550px;
-  margin-top: -70px;
+  margin-top: -60px;
 }
 
-.ocean-img img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  height: 500px;
-  width: 700px;
-  border-radius: 20%;
-  margin-left: 400px;
-  margin-top: -300px;
-}
 
-.ocean-map {
-  height: 300px;
-  margin-left: 60%;
-  margin-top: -200px;
-  border-radius: 50%;
-}
-
-.ocean-sketch {
-  max-width: 45%;
-  height: 300px;
-  margin-top: -250px;
-  border-radius: 50%;
-}
 
 .ocean-map img {
-  border-radius: 20%;
+  max-width: 400px;
+  margin-left: 60%;
+  margin-top: -120px;
 }
 
-.ocean-sketch img {
-  border-radius: 20%;
+.ocean-sketch img{
+  max-width: 45%;
+  height: 300px;
+  margin-top: -300px;
 }
 
 /* Asia Styling */
@@ -918,7 +896,6 @@ div .Amap img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: large;
   background: linear-gradient(
     90deg,
     #606c38 0%,
@@ -939,7 +916,6 @@ div .NAmap img {
 /* SA Styling */
 
 .southa img{
-  background-color: blue;
 }
 .southa .asia-map img{
   margin-top: 20px;
@@ -956,7 +932,6 @@ div .NAmap img {
 
 .southa .asia-legend{
   margin-right: 20px;
-  background-color: chartreuse;
 }
 
 .duendeimg {
