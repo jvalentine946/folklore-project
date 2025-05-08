@@ -825,6 +825,8 @@ div .Amap img {
   max-width: 45%;
   height: 300px;
   margin-top: -300px;
+  border-radius: 5%;
+  
 }
 
 /* Asia Styling */
