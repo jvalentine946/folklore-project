@@ -360,9 +360,10 @@ div.Horz-line3 {
   margin-top: -50px;
 }
 
-.green-text {
-  color: green;
+.footer-text {
+  color: #3bf516; /* light grey, change to any color you prefer */
 }
+
 
 /* .map .moke img {
   max-width: 100px;
