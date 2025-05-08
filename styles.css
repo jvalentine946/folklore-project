@@ -314,16 +314,18 @@ div.Horz-line3 {
   justify-content: center;
   font-weight: bold;
   max-width: 300px;
+  border-radius: 5%;
 }
 
 .creature-details {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 30px;
   flex-wrap: wrap;
   padding-top: 2px;
   padding-bottom: 60px;
+  
 }
 
 .sketch-box img {
@@ -333,6 +335,7 @@ div.Horz-line3 {
   -webkit-box-shadow: 0px 0px 20px 0px #283618;
   -moz-box-shadow: 0px 0px 20px 0px #283618;
   box-shadow: 0px 0px 20px 0px #283618;
+  
 }
 
 .info-columns {
@@ -396,7 +399,7 @@ div .Amap img {
 .hellhound-image img {
   height: 300px;
   width: 300px;
-  
+  border-radius: 5%;
   box-shadow: 0 4px 7px #fefae0;
 }
 .map-section{
@@ -485,7 +488,7 @@ div .Amap img {
   display: flex;
 }
 .yara-image img {
-  border-radius: 20%;
+  border-radius: 5%;
   height: 300px;
   width: 400px;
 }
@@ -761,6 +764,7 @@ div .Amap img {
 .ocean img{
   max-width: 300px;
   height: auto;
+  border-radius: 5%;
 }
 
 .ocean-content {
@@ -840,6 +844,7 @@ div .Amap img {
 }
 .asia-content img{
   margin: 10px;
+  border-radius: 5%;
 }
 
 .asia-description {
