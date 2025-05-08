@@ -140,7 +140,6 @@ aside.homeRight2 {
   -webkit-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
-  overlay: 100%;
 }
 aside.homeLeft {
   background-color: #fefae0;
@@ -314,7 +313,6 @@ div.Horz-line3 {
   justify-content: center;
   font-weight: bold;
   height: 300px;
-  border-radius: 20%;
 }
 
 .creature-details {
@@ -376,7 +374,7 @@ div .Amap img {
 /* Europe styling V*/
 .europe-clean {
   color: #fefae0;
-  padding: 40px 20px;
+  padding: 20px;
   font-family: "Georgia", serif;
 }
 
@@ -385,69 +383,50 @@ div .Amap img {
   align-items: center;
   justify-content: space-evenly;
   font-size: 48px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #fefae0;
 }
 .hellhound-center {
   text-align: center;
-  margin-bottom: 60px;
   display: flex;
+  margin-right: 10px;
 }
 .hellhound-image img {
-  border-radius: 50%;
-  padding-top: 2px;
   height: 300px;
   width: 300px;
+  
+  box-shadow: 0 4px 7px #fefae0;
 }
-.map img {
+.map-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.map-section img {
   height: 300px;
-  width: 700px;
+  width: auto;
+  background-color: #fefae0;
+  padding: 10px;
+  margin: 20px;
+
+  box-shadow: 0 4px 7px #fefae0;
 }
-.sight img {
-  height: 350px;
-  width: 500px;
-}
-.map-folklore {
-  height: 350px;
-  width: 300px;
-}
+
 .hellhound-image {
   height: 300px;
   width: 300px;
-  margin: 0 auto 20px auto;
-  background: #fefae0;
-  border-radius: 50%;
+  margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  color: #283618;
 }
 .hellhound-description {
   font-size: 24px;
   max-width: 855px;
-  margin: 0 auto;
   line-height: 1.6;
 }
-.map {
-  border-radius: 12px;
-  padding: 20px;
-  width: 40%;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: bold;
-  box-shadow: 0 4px 10px #fefae0;
-}
-.map-folklore {
-  background: #fefae0;
-  border-radius: 12px;
-  padding: 20px;
-  width: 40%;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: bold;
-  box-shadow: 0 4px 10px #283618;
-}
+
 .hh-facts {
   display: flex;
   justify-content: space-around;
@@ -457,12 +436,9 @@ div .Amap img {
 .hh-block {
   flex: 1;
   min-width: 200px;
-  background: #606c38;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: inset 0 0 10px #fefae0;
+  box-shadow: 0 10px 10px #fefae0;
 
-  box-shadow: 0 4px 10px #606c38;
   font-style: italic;
   color: #283618;
   font-size: 20px;
@@ -474,13 +450,14 @@ div .Amap img {
   font-size: 18px;
 }
 .ability ul {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .ability ul li {
   font-size: 18px;
 }
 .goals {
   font-size: 15px;
+  justify-items: flex-start;
 }
 
 /* Aussie styling v */
@@ -533,10 +510,8 @@ div .Amap img {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 4px 10px #fefae0;
 }
 .map-folklore {
-  background: #fefae0;
   border-radius: 12px;
   padding: 20px;
   width: 40%;
@@ -625,19 +600,13 @@ div .Amap img {
 
 .map-banner {
   text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: 15px;
   color: #606c38;
   /* opacity: 0.8; */
 }
 
-.map-section {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 50px;
-}
 
 .map-a1 img {
   height: 350px;
